@@ -1,0 +1,105 @@
+/*MIXIN*/
+
+@mixin title-style {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 6vw;
+}
+
+/*INICIO*/
+.nav{
+    background-color: black;
+    height: 70px; }
+  
+  .nav-link {
+    margin-top: 13px;
+    margin-left: 20px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
+  
+  .nav-link:hover {
+    color: grey;
+    font-style: italic; }
+  
+  .inicio__navigation--socialMedia{
+    margin-top: 13px;
+    padding-left: 65%;
+    margin-left: 15px; }
+  
+  .inicio__carousel{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    margin-left: none;
+    background-size: cover;
+    top: 20px;
+    z-index: -2; }
+  
+  .carousel-item{
+    opacity: 0.9; }
+  
+  .inicio__carousel--title{
+    color: #fff;
+    position: absolute;
+    z-index: 12;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    text-align: center; }
+  
+  .inicio__carousel--title h1 {
+    color: white;
+    @include title-style;
+}
+  
+  .animate__fadeInUpBig {
+    animation-duration: 2s; }
+  
+  /*NOSOTROS*/
+  .nosotros{
+    top: 5px;
+    padding: 30px; }
+  
+  .nosotros__content h1 {
+    top: 1vh;
+    text-align: center;
+    @include title-style;    
+}
+  
+  .nosotros__content p{
+    margin-top: 2px;
+    text-align: justify;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    word-spacing: 3px;
+    padding-bottom: 15px; }
+  
+  /*CONTACTO*/
+  .contacto{
+    background: url("../Imagenes/backgroundContact.jpg") repeat;
+    width: 100%;
+    height: 100vh;
+    background-size: 100%; }
+  
+  .contacto__title{
+    color: white;
+    top: 5vh;
+    padding: 30px;
+    text-align: center;
+    @include title-style;
+}
+  
+  .contacto__form{
+    top: 5px;
+    padding: 30px;
+    background-color: transparent;
+    color: white; }
+  
+  .box{
+    opacity: 0.8;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 40%; }
+  
+  .checkbox {
+    margin-left: 10px; }
