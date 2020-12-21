@@ -1,5 +1,6 @@
 /*MIXIN*/
 /*INICIO*/
+
 .navbar{
   background-color: black !important;
   height: 70px; }
@@ -30,10 +31,10 @@
   background-color: black !important;
   border-radius: 5px;
   text-align: center;
+  z-index: 1;
 }
 
 .inicio__carousel {
-  position: absolute;
   width: 100%;
   height: auto;
   margin: 0!important;
@@ -43,7 +44,8 @@
 }
 
 .carousel-item {
-  opacity: 0.9; }
+  opacity: 0.9; 
+}
 
 .inicio__carousel--title {
   color: #fff;
@@ -65,11 +67,20 @@
 @media (min-width: 576px) {
     section {
       margin: 0 auto;
+      
+    }
+    .carousel-item {
+      background-size: center;
     }
 }  
 @media (min-width: 768px) {
   section {
     margin: 0;
+    
+  }
+  .carousel-item {
+    background-size: center;
+    
   }
 }
 @media (min-width: 992px) {
@@ -93,7 +104,7 @@
 }
 
 footer{
-    position: absolute;
+    
     bottom: 0;
     width: 100%;
     height: 40px;
@@ -138,12 +149,13 @@ h2{
   padding-bottom: 15px; }
 
 /*CONTACTO*/
+
 .contacto {
-  background: url("../Imagenes/backgroundContact.jpg") repeat;
+  background: url("../Imagenes/backgroundContact.jpg") no-repeat;
   background-position: center;
+  background-size: cover;
   width: 100%;
   height: auto;
-  background-size: 100%; 
 }
 
 .contacto__title {
