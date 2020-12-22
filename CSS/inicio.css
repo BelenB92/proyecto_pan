@@ -51,7 +51,7 @@
   color: #fff;
   position: absolute;
   z-index: 10;
-  top: 40%;
+  top: 75%;
   left: 0;
   width: 100%;
   text-align: center; }
@@ -130,15 +130,16 @@ h2{
 
 /*NOSOTROS*/
 .nosotros {
-
-  top: 5px;
+  top: 10px;
   padding: 30px; }
 
 .nosotros__content h1 {
-  top: 1vh;
+  padding-top: 70px;
+  /*top: 1vh;*/
   text-align: center;
   font-family: 'Times New Roman', Times, serif;
-  font-size: 6vw; }
+  font-size: 6vw;
+  margin-bottom: 40px; }
 
 .nosotros__content p {
   margin-top: 2px;
@@ -147,6 +148,27 @@ h2{
   font-size: 20px;
   word-spacing: 3px;
   padding-bottom: 15px; }
+
+.embed-responsive {
+  width: 500px;
+  height: 450px;
+  opacity: 0.8;
+  margin-top: 15px;
+  margin-bottom: 25px;
+
+}
+
+.nosotros__carousel{
+  margin-top: 60px;
+}
+
+.nosotrosVideo__content{
+  margin-top: 150px;
+  text-align: justify;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  word-spacing: 3px;
+}
 
 /*CONTACTO*/
 
