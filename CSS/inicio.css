@@ -65,18 +65,57 @@
   animation-duration: 2s; }
 
 @media (min-width: 576px) {
-    section {
-      margin: 0 auto;
-      
-    }
+  .inicio__carousel--title {
+    color: #fff;
+    position: absolute;
+    z-index: 10;
+    top: 20%;
+    left: 0;
+    width: 100%;
+    text-align: center; }
+
+  .footer-container {
+    margin-bottom: 0 auto;
+    padding-top: 320px;
+  }
     .carousel-item {
       background-size: center;
     }
 }  
 @media (min-width: 768px) {
-  section {
-    margin: 0;
-    
+  /*INICIO*/
+  .inicio__carousel--title {
+    color: #fff;
+    position: absolute;
+    z-index: 10;
+    top: 25%;
+    left: 0;
+    width: 100%;
+    text-align: center; }
+    /*LOCAL*/
+    .flip-card {
+      padding-left: 20% !important;
+    }
+    .descriptionLocal h1 {
+     font-size: 50px !important;
+     padding-left: 50%;
+     margin-top: -35% !important;
+     margin-bottom: 0 auto;
+    }
+    .descriptionLocal p {
+      font-size: 15px !important;
+      padding-left: 50% !important;
+    }
+    .descriptionMap h2 {
+      padding-top: -30% !important;
+    }
+    /*NOSOTROS*/
+    .nosotros__carousel {
+      padding-top: 30%;
+  }
+  .footer-container {
+    margin-bottom: 0 auto;
+    padding-top: 210px;
   }
   .carousel-item {
     background-size: center;
@@ -84,13 +123,40 @@
   }
 }
 @media (min-width: 992px) {
-  section {
-    margin: 0;
+  .inicio__carousel--title {
+    color: #fff;
+    position: absolute;
+    z-index: 10;
+    top: 30%;
+    left: 0;
+    width: 100%;
+    text-align: center; }
+    .descriptionLocal h1 {
+      font-size: 45px !important;
+    }
+    .descriptionLocal p {
+      font-size: 15px !important;
+    }
+    .descriptionMap h2 {
+      padding-top: -30% !important;
+    }
+  .footer-container {
+    margin-bottom: 0 auto;
+    padding-top: 165px;
   }
 }
 @media (min-width: 1200px) {
-  section {
-    margin: 0 auto;
+  .inicio__carousel--title {
+    color: #fff;
+    position: absolute;
+    z-index: 10;
+    top: 35%;
+    left: 0;
+    width: 100%;
+    text-align: center; }
+  .footer-container {
+    margin-bottom: 0 auto;
+    padding-top: 165px;
   }
 }
 
@@ -113,6 +179,7 @@ footer{
 
 .footer-link{
   color: white;
+  text-decoration: none;
   font-size: 20px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
