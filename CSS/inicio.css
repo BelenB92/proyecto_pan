@@ -64,35 +64,6 @@
 .animate__fadeInUpBig {
   animation-duration: 2s; }
 
-@media (min-width: 576px) {
-    section {
-      margin: 0 auto;
-      
-    }
-    .carousel-item {
-      background-size: center;
-    }
-}  
-@media (min-width: 768px) {
-  section {
-    margin: 0;
-    
-  }
-  .carousel-item {
-    background-size: center;
-    
-  }
-}
-@media (min-width: 992px) {
-  section {
-    margin: 0;
-  }
-}
-@media (min-width: 1200px) {
-  section {
-    margin: 0 auto;
-  }
-}
 
 .footer-container{
   overflow: hidden;
@@ -364,3 +335,40 @@ h2{
 
 .checkbox {
   margin-left: 10px; }
+
+@media only screen and (max-width: 576px) {
+  .footer-container{
+    padding-bottom: 70%;
+  }
+  .map-container{
+    padding-top: 10%;
+    margin-bottom: 15%;
+    }
+  .inicio__carousel--title {
+    top: 20%;
+    }
+    
+    .carousel-item {
+      background-size: center;
+    }
+}  
+@media only screen and (max-width: 768px) {
+  section {
+    margin: 0;
+    
+  }
+  .carousel-item {
+    background-size: center;
+    
+  }
+}
+@media only screen and (max-width: 992px) {
+  section {
+    margin: 0;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  section {
+    margin: 0 auto;
+  }
+}
